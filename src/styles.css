@@ -8,4 +8,8 @@
   .form-container {
     max-width: 1024px;
   }
+
+  .app-container {
+    height: 1080px;
+  }
 }

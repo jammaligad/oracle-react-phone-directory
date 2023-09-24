@@ -77,7 +77,7 @@ function App() {
   }
 
   return (
-    <div className="app-container w-full">
+    <div className="app-container w-full bg-slate-100">
       <div className="header m-auto shadow bg-slate-800 mb-4">
         <h1 className="text-center text-white pt-2">
           Oracle Technical Exam - Phone Directory - Developed in React by Juan
@@ -105,7 +105,7 @@ function App() {
         >
           Invalid Input!
         </div>
-        <div className="border p-8 space-y-4">
+        <div className="border p-8 space-y-4 bg-white">
           <h1>Contacts Summary</h1>
           <table className="w-full ">
             <thead>
