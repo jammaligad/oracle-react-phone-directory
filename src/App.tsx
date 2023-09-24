@@ -78,8 +78,13 @@ function App() {
 
   return (
     <div className="app-container w-full">
+      <div className="header m-auto shadow bg-slate-800 mb-4">
+        <h1 className="text-center text-white pt-2">
+          Oracle Technical Exam - Phone Directory - Developed in React by Juan
+          Alphonso D. Maligad
+        </h1>
+      </div>
       <div className="form-container space-y-4 m-auto">
-        <h1>Oracle - Phone Directory - React</h1>
         <div className="flex space-x-2 m-auto">
           {fields.map(({ fieldName, type, placeholder }) => (
             <Input
@@ -104,7 +109,7 @@ function App() {
           <h1>Contacts Summary</h1>
           <table className="w-full ">
             <thead>
-              <tr>
+              <tr className="text-left">
                 <th>Name</th>
                 <th>Mobile Number</th>
                 <th>Email</th>
