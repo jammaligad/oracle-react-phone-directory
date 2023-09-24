@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+  .form-container {
+    max-width: 1024px;
+  }
+}
